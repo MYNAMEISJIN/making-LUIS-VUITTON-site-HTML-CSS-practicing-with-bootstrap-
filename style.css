@@ -1,0 +1,70 @@
+.btn-outline-success
+{
+    color: chocolate;
+    border-color: chocolate;
+}
+
+.btn-outline-success:hover
+{
+    color:white;
+    border-color: chocolate;
+    background-color: chocolate;
+}
+
+.card:hover
+{
+    transform:scale(1.05);
+    transition-duration: 500ms;
+}
+footer
+{
+    background-color: black;
+    color: white;
+}
+.first-line
+{
+    border-bottom: 1px solid #392d23;
+}
+.second-line a
+{
+    color: white;
+    text-decoration: none;
+}
+.footer-bottom
+{
+    display: none;
+    font-size: 1.125rem;
+}
+.second-line
+{
+    border-bottom: 1px solid #392d23;
+}
+@media screen and (max-width:48rem){
+    .first-line
+    {
+        text-align: center;
+    }
+}
+@media screen and (max-width:48rem)
+{
+    .second-line
+    {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+@media screen and (max-width:48rem)
+{
+    .footer-bottom
+    {
+        display: block;
+
+    }
+}
+@media screen and (max-width:48rem)
+{
+    .flag
+    {
+        display: none;
+    }
+}
